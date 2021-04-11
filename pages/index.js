@@ -1,17 +1,30 @@
+// NextJS Components
 import Head from 'next/head'
-import 'tailwindcss/tailwind.css'
+
+// Custom Components
+import AboutSection from '../components/AboutSection'
+import ContactSection from '../components/ContactSection'
+import FoundersSection from '../components/FoundersSection'
+import HeroSection from '../components/HeroSection'
+import Navbar from '../components/Navbar'
+import TalentSection from '../components/TalentSection'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
         <>
             <Head>
-                <title>Mirai Dream ID</title>
+                <title>Mirai Dream ID | Homepage</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Navbar />
 
-            <h1 class="text-xl">
-                This page is created using TailwindCSS and NextJS
-            </h1>
+            <HeroSection />
+            <TalentSection />
+            <AboutSection />
+            <FoundersSection />
+            <ContactSection />
+            <Footer />
         </>
     )
 }
