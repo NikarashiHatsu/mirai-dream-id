@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <nav className="fixed w-full py-4 bg-black between bg-opacity-20">
+        <nav className="fixed z-50 w-full py-4 bg-black between bg-opacity-20">
             <div className="flex justify-between w-full mx-auto max-w-7xl">
                 <div className="flex items-center">
                     <img src="/mirai_dream.webp" className="w-8 h-8" />
