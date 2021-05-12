@@ -8,13 +8,16 @@ export default function Navbar() {
                     <img src="/mirai_dream.webp" className="w-8 h-8" />
                     <p className="ml-4 font-semibold text-white">MIRAI DREAM ID</p>
                 </div>
-                
+
                 <div className="flex items-center px-4 rounded-lg">
                     <Link href="/">
                         <a className="mr-6 text-sm font-semibold text-white hover:underline">Homepage</a>
                     </Link>
                     <Link href="/about">
                         <a className="mr-6 text-sm font-semibold text-white hover:underline">About</a>
+                    </Link>
+                    <Link href="/staff">
+                        <a className="mr-6 text-sm font-semibold text-white hover:underline">Staff</a>
                     </Link>
                     <Link href="/legal">
                         <a className="text-sm font-semibold text-white hover:underline">Legal</a>

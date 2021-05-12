@@ -11,9 +11,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        amber: colors.amber
+        amber: colors.amber,
+        gray: colors.blueGray,
       }
     },
+    fontFamily: {
+      lexend: ['"Lexend"', 'serif'],
+      valeraRound: ['"Varela Round"', 'serif']
+    }
   },
   variants: {
     extend: {},
