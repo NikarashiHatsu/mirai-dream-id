@@ -56,7 +56,9 @@ export default function AboutSection() {
             {/* Top Separator */}
             <div className="absolute right-0 w-full h-8 bg-purple-500 top-4 transform-gpu -skew-y-1"></div>
             <div className="absolute top-0 right-0 w-full h-8 bg-purple-400"></div>
-            <div className="absolute right-0 w-full h-8 bg-blue-100 -top-4 transform-gpu skew-y-1"></div>
+            <div className="absolute right-0 w-full h-8 bg-yellow-200 -top-4 transform-gpu skew-y-1"></div>
+            <div className="absolute right-0 w-full h-8 bg-yellow-300 -top-8 transform-gpu skew-y-2"></div>
+
             {/* Bottom Separator */}
             <div className="absolute right-0 w-full h-8 bg-purple-500 bottom-4 transform-gpu -skew-y-1"></div>
             <div className="absolute bottom-0 right-0 w-full h-8 bg-purple-400"></div>
