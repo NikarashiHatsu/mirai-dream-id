@@ -10,7 +10,7 @@ export default class HeroSection extends React.Component {
                 <Head>
                     <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
                 </Head>
-                <div className="relative flex items-center w-full h-screen pt-16 text-white bg-gradient-to-br from-purple-800 to-purple-700">
+                <div className="relative flex items-center w-full h-screen pt-8 text-white bg-gradient-to-br from-purple-800 to-purple-700">
                     <div className="absolute top-0 left-0 w-full h-full">
                         <Particles params={ParticlesJsConfig} />
                     </div>
