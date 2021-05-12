@@ -29,6 +29,11 @@
           "src": "/moon.png",
           "width": 50,
           "height": 50
+        },
+        {
+          "src": "/cloud.png",
+          "width": 50,
+          "height": 50
         }
       ]
     },

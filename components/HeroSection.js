@@ -76,6 +76,7 @@ export default class HeroSection extends React.Component {
                             </div>
                         </div>
                     </div>
+
                     <div className="absolute right-0 w-full h-8 bg-purple-500 bottom-4 transform-gpu skew-y-1"></div>
                     <div className="absolute bottom-0 right-0 w-full h-8 bg-purple-400"></div>
                     <div className="absolute right-0 w-full h-8 bg-blue-50 -bottom-4 transform-gpu -skew-y-1"></div>

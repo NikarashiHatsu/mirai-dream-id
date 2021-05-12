@@ -13,8 +13,8 @@ export default function Navbar() {
                     <Link href="/">
                         <a className="mr-6 text-sm font-semibold text-white hover:underline">Homepage</a>
                     </Link>
-                    <Link href="/about">
-                        <a className="mr-6 text-sm font-semibold text-white hover:underline">About</a>
+                    <Link href="/audition">
+                        <a className="mr-6 text-sm font-semibold text-white hover:underline">Audition</a>
                     </Link>
                     <Link href="/staff">
                         <a className="mr-6 text-sm font-semibold text-white hover:underline">Staff</a>

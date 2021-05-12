@@ -16,15 +16,19 @@ export default function Home() {
             <Head>
                 <title>Mirai Dream ID | Homepage</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Varela+Round&display=swap" rel="stylesheet" />
             </Head>
             <Navbar />
 
-            <HeroSection />
-            <TalentSection />
-            <AboutSection />
-            <FoundersSection />
-            <ContactSection />
-            <Footer />
+            <div className="font-lexend">
+                <HeroSection />
+                <TalentSection />
+                <AboutSection />
+                <FoundersSection />
+                <ContactSection />
+                <Footer />
+            </div>
         </>
     )
 }
