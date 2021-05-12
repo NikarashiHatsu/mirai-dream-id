@@ -22,12 +22,12 @@ export default function Home() {
             <Navbar />
 
             <div className="font-lexend">
-                <HeroSection />
+                <HeroSection />         {/* Done */}
                 <TalentSection />
-                <AboutSection />
+                <AboutSection />        {/* Done */}
                 <FoundersSection />
                 <ContactSection />
-                <Footer />
+                <Footer />              {/* Done */}
             </div>
         </>
     )
