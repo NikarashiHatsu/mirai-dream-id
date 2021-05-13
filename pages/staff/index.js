@@ -40,7 +40,7 @@ export default function Staff() {
                                 image="/staff/pratama_m_iqbal.webp"
                                 name="Pratama M. Iqbal"
                                 role="Vice CEO"
-                                email="-email-" />
+                                email="pratamaabjm@gmail.com" />
                             <StaffCard
                                 image="/staff/fuad_fauzi.webp"
                                 name="Fuad Fauzi"
@@ -55,12 +55,12 @@ export default function Staff() {
                                 image="/staff/reru_pi.webp"
                                 name="Reru / Pi"
                                 role="Social Media Admin"
-                                email="-email-" />
+                                email="fakhrrelraihanh@gmail.com" />
                             <StaffCard
                                 image="/staff/dimas_budi.webp"
                                 name="Dimas Budi"
                                 role="Video Clipper / MV Editor"
-                                email="-email-" />
+                                email="dimbud48@gmail.com" />
                             <StaffCard
                                 image="/staff/aghits_nidallah.webp"
                                 name="Aghits Nidallah"
@@ -69,13 +69,13 @@ export default function Staff() {
                             <StaffCard
                                 name="Renzuku"
                                 role="Web Dev, MV Editor, Layout Maker"
-                                email="-email-" />
+                                email="shiinamashiro568@gmail.com" />
                             <div className="flex justify-center col-span-4">
                                 <StaffCard
                                     image="/staff/tama.webp"
                                     name="Tama"
                                     role="Graphic Designer, Video Clipper"
-                                    email="pratamaabjm@gmail.com" />
+                                    email="daniputra.pr@gmail.com" />
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ export default function Staff() {
                                     className="text-gray-700"
                                     name="EiShaa"
                                     role="Vice Head Quarter Mirai Dream Studio"
-                                    email="-email-" />
+                                    email="eishashimera@gmail.com" />
                             </div>
                         </div>
                     </div>
