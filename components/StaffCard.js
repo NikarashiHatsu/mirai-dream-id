@@ -8,7 +8,7 @@ export default function StaffCard({className, image, name, role, email}) {
             </div>
 
             <p className="mt-4 font-bold">{ name }</p>
-            <p className="text-sm">{ role }</p>
+            <p className="text-sm italic">{ role }</p>
             <p className="text-sm">{ email }</p>
         </div>
     );

@@ -35,7 +35,7 @@ export default function Staff() {
                                 image="/staff/isamu_riandi.webp"
                                 name="Isamu Riandi"
                                 role="Founder & CEO"
-                                email="-email-" />
+                                email="isamuriandri12@gmail.com" />
                             <StaffCard
                                 image="/staff/pratama_m_iqbal.webp"
                                 name="Pratama M. Iqbal"
@@ -45,8 +45,9 @@ export default function Staff() {
                                 image="/staff/fuad_fauzi.webp"
                                 name="Fuad Fauzi"
                                 role="Bendahara - Marketing"
-                                email="-email-" />
+                                email="fuaddomon@gmail.com" />
                             <StaffCard
+                                image="/staff/seisou.webp"
                                 name="Seisou"
                                 role="Discord Admin"
                                 email="-email-" />
@@ -56,6 +57,7 @@ export default function Staff() {
                                 role="Social Media Admin"
                                 email="-email-" />
                             <StaffCard
+                                image="/staff/dimas_budi.webp"
                                 name="Dimas Budi"
                                 role="Video Clipper / MV Editor"
                                 email="-email-" />
@@ -63,7 +65,7 @@ export default function Staff() {
                                 image="/staff/aghits_nidallah.webp"
                                 name="Aghits Nidallah"
                                 role="Head Web Developer"
-                                email="-email-" />
+                                email="yourlovelydev@gmail.com" />
                             <StaffCard
                                 name="Renzuku"
                                 role="Web Dev, MV Editor, Layout Maker"
@@ -73,7 +75,7 @@ export default function Staff() {
                                     image="/staff/tama.webp"
                                     name="Tama"
                                     role="Graphic Designer, Video Clipper"
-                                    email="-email-" />
+                                    email="pratamaabjm@gmail.com" />
                             </div>
                         </div>
                     </div>
@@ -96,15 +98,17 @@ export default function Staff() {
                         <div className="flex justify-center">
                             <div className="grid w-full max-w-xl grid-flow-row grid-cols-3 gap-6 mx-auto mt-10">
                                 <StaffCard
+                                    image="/staff/zetsu.webp"
                                     className="text-gray-700"
                                     name="Zetsu"
                                     role="Head Quarter Mirai Dream Studio"
-                                    email="-email-" />
+                                    email="m.rafly.indrawan@gmail.com" />
                                 <StaffCard
+                                    image="/staff/fatah.webp"
                                     className="text-gray-700"
                                     name="Fatah"
                                     role="Vice Head Quarter Mirai Dream Studio"
-                                    email="-email-" />
+                                    email="alfatahmin9@gmail.com" />
                                 <StaffCard
                                     className="text-gray-700"
                                     name="EiShaa"
@@ -117,10 +121,10 @@ export default function Staff() {
 
                 <div className="relative flex items-center w-full min-h-screen pt-20 pb-10 text-white bg-blue-300">
                     {/* Top Separator */}
-                    <div className="absolute right-0 w-full h-8 bg-yellow-200 -top-8 transform-gpu -skew-y-2"></div>
-                    <div className="absolute right-0 w-full h-8 bg-yellow-100 -top-4 transform-gpu -skew-y-1"></div>
+                    <div className="absolute right-0 w-full h-8 bg-yellow-200 -top-8 transform-gpu skew-y-2"></div>
+                    <div className="absolute right-0 w-full h-8 bg-yellow-100 -top-4 transform-gpu skew-y-1"></div>
                     <div className="absolute top-0 right-0 w-full h-8 bg-blue-200"></div>
-                    <div className="absolute right-0 w-full h-8 bg-blue-300 top-4 transform-gpu skew-y-1"></div>
+                    <div className="absolute right-0 w-full h-8 bg-blue-300 top-4 transform-gpu -skew-y-1"></div>
 
                     <div className="absolute top-0 left-0 z-0 w-full h-full">
                         <Particles params={ParticlesJsConfig} />
@@ -129,8 +133,8 @@ export default function Staff() {
                         <h2 className="text-4xl text-center text-white">
                             Bagan Struktur Mirai Dream
                         </h2>
-                        <div className="mt-10">
-                            <img className="h-screen bg-gray-100 border border-black rounded" src="/bagan_mirai_dream.webp" />
+                        <div className="mx-auto mt-10 max-w-7xl">
+                            <img className="max-h-screen bg-gray-100 border border-black rounded" src="/bagan_mirai_dream.webp" />
                         </div>
                     </div>
                 </div>
