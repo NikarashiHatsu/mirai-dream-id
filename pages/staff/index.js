@@ -15,7 +15,7 @@ export default function Staff() {
         <>
             <Head>
                 <title>Mirai Dream ID | Staff Page</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/mirai_dream.webp" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Varela+Round&display=swap" rel="stylesheet" />
             </Head>

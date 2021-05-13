@@ -9,8 +9,8 @@ export default function Legal() {
     return (
         <>
             <Head>
-                <title>Mirai Dream ID | Legal</title>
-                <link rel="icon" href="/favicon.ico" />
+                <title>Mirai Dream ID | Legal Page</title>
+                <link rel="icon" href="/mirai_dream.webp" />
             </Head>
             <Navbar />
 
