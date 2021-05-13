@@ -3,7 +3,7 @@ import Particles from 'react-particles-js'
 
 export default function AboutSection() {
     return (
-        <div className="relative flex items-center w-full text-white bg-gradient-to-br from-purple-800 to-purple-700">
+        <div className="relative flex items-center w-full text-white bg-gradient-to-br from-purple-800 to-purple-700" id="about">
             <div className="absolute top-0 left-0 w-full h-full">
                 <Particles className="w-full h-full" params={ParticlesJsConfig} />
             </div>

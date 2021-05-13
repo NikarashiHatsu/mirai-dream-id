@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import ParticlesJsConfig from './particlesjs-config.json'
 import Particles from 'react-particles-js'
+import { Link, animateScroll as scroll, scroller } from 'react-scroll'
 
 export default class HeroSection extends React.Component {
     render() {
@@ -21,12 +22,12 @@ export default class HeroSection extends React.Component {
                                     Mirai Dream ID
                                 </h3>
                                 <p className="mb-6 text-xl leading-relaxed tracking-wider">
-                                    Veniam consectetur cillum nostrud ipsum officia minim. Duis do veniam ex cupidatat reprehenderit. Veniam cupidatat proident ad est dolor id laborum incididunt.
+                                    Sebuah korporasi dari Indonesia yang bergerak di dunia Entertainment. <i>Let's grow up and shine together</i>!
                                 </p>
                                 <div className="relative overflow-hidden w-36 h-14">
-                                    <button className="w-32 py-2 font-semibold text-purple-700 transition-colors duration-300 bg-white rounded hover:bg-purple-900 hover:text-amber-300">
+                                    <Link to="about" smooth="easeInOut" duration={1000} className="inline-block w-32 px-4 py-2 font-semibold text-center text-purple-700 transition-colors duration-300 bg-white rounded hover:bg-purple-900 hover:text-amber-300">
                                         See More
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="flex flex-col items-center justify-center col-span-7">
