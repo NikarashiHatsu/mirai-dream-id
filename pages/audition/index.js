@@ -1,0 +1,75 @@
+// NextJS Components
+import Head from 'next/head'
+
+// Libraries
+import Particles from 'react-particles-js'
+import Countdown from 'react-countdown'
+
+// Custom Components
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import ParticlesJsConfig from '../../components/particlesjs-config.json'
+
+export default function Audition() {
+    const dateBeforeAudition = Date.parse("May 23, 2021. 07:00")
+    const dateAfterAudition = Date.parse("May 30, 2021. 23:59")
+
+    const renderedAfter = ({ days, hours, minutes, seconds, completed }) => {
+        if(completed) {
+            return <h3 className="mb-4 text-3xl">Audisi telah selesai! Sampai jumpa di audisi selanjutnya!</h3>
+        }
+
+        return (
+            <div className="flex flex-col">
+                <h3 className="mb-4 text-3xl">Audisi telah dimulai!</h3>
+                <span>{ days } Hari - { hours } Jam - { minutes } Menit - { seconds } Detik.</span>
+
+                <div className="flex justify-center">
+                    <a className="px-4 py-2 mt-12 text-2xl text-blue-700 transition-colors bg-white rounded hover:bg-blue-800 hover:text-white" target="_blank" href="https://docs.google.com/forms/d/1KiDgazYV4SEwMI8uSfYbKppcLoU6E8OroSqrMMkScxM">
+                        Daftar disini!
+                    </a>
+                </div>
+            </div>
+        )
+    }
+
+    const renderedBefore = ({ days, hours, minutes, seconds, completed }) => {
+        if(completed) {
+            return <Countdown
+                date={ dateAfterAudition }
+                renderer={ renderedAfter } />
+        }
+
+        return <span>{ days } Hari - { hours } Jam - { minutes } Menit - { seconds } Detik.</span>
+    }
+
+    return (
+        <>
+            <Head>
+                <title>Mirai Dream ID | Audition Page</title>
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Varela+Round&display=swap" rel="stylesheet" />
+            </Head>
+
+            <Navbar />
+
+            <div className="font-lexend">
+                <div className="relative flex items-center justify-center w-full min-h-screen py-24 text-white bg-blue-700">
+                    <div className="absolute top-0 left-0 w-full h-full">
+                        <Particles params={ParticlesJsConfig} />
+                    </div>
+                    <div className="static top-0 z-10 flex flex-col w-full mx-auto max-w-7xl">
+                        <h1 className="text-5xl text-center text-white">
+                            <Countdown
+                                date={ dateBeforeAudition }
+                                renderer={ renderedBefore } />
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <Footer />
+        </>
+    );
+}
