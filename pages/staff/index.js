@@ -37,11 +37,15 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/isamu_riandi.webp"
                                 name="Isamu Riandi"
-                                role="Founder & CEO" />
+                                role="Founder & CEO"
+                                facebook="https://web.facebook.com/isamu.riandi"
+                                twitter="https://twitter.com/IsamuMiraiDream" />
                             <StaffCard
                                 image="/staff/pratama_m_iqbal.webp"
                                 name="Pratama M. Iqbal"
-                                role="Vice CEO" />
+                                role="Vice CEO"
+                                facebook="https://www.facebook.com/pratama458"
+                                twitter="https://twitter.com/TamaNegi_37" />
                             <StaffCard
                                 image="/staff/fuad_fauzi.webp"
                                 name="Fuad Fauzi"
@@ -49,11 +53,13 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/seisou.webp"
                                 name="Seisou"
-                                role="Discord Admin" />
+                                role="Discord Admin"
+                                twitter="https://twitter.com/seisomine" />
                             <StaffCard
                                 image="/staff/reru_pi.webp"
                                 name="Reru / Pi"
-                                role="Social Media Admin" />
+                                role="Social Media Admin"
+                                twitter="https://twitter.com/ReRunotReU" />
                             <StaffCard
                                 image="/staff/dimas_budi.webp"
                                 name="Dimas Budi"
@@ -69,8 +75,8 @@ export default function Staff() {
                                 role="Web Dev, MV Editor, Layout Maker" />
                             <div className="flex justify-center col-span-4">
                                 <StaffCard
-                                    image="/staff/tama.webp"
-                                    name="Tama"
+                                    image="/staff/dani.webp"
+                                    name="Dani"
                                     role="Graphic Designer, Video Clipper" />
                             </div>
                         </div>
@@ -100,12 +106,16 @@ export default function Staff() {
                                     image="/staff/zetsu.webp"
                                     className="text-gray-700"
                                     name="Zetsu"
-                                    role="Head Quarter Mirai Dream Studio" />
+                                    role="Head Quarter Mirai Dream Studio"
+                                    facebook="https://www.facebook.com/ZetsubouOu/"
+                                    twitter="https://twitter.com/zetsuhere" />
                                 <StaffCard
                                     image="/staff/fatah.webp"
                                     className="text-gray-700"
                                     name="Fatah"
-                                    role="Vice Head Quarter Mirai Dream Studio" />
+                                    role="Vice Head Quarter Mirai Dream Studio"
+                                    facebook="https://www.facebook.com/sadao.fatah"
+                                    twitter="https://twitter.com/slfatah" />
                                 <StaffCard
                                     className="text-gray-700"
                                     name="EiShaa"
