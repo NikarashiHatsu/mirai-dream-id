@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="fixed z-50 w-full py-4 bg-black between bg-opacity-20">
             <div className="flex justify-between w-full mx-auto max-w-7xl">
-                <div className="flex items-center">
+                <div className="flex items-center pl-4">
                     <img src="/mirai_dream.webp" className="w-8 h-8" />
                     <p className="ml-4 font-semibold text-white">MIRAI DREAM ID</p>
                 </div>
@@ -19,9 +19,10 @@ export default function Navbar() {
                     <Link href="/staff">
                         <a className="mr-6 text-sm font-semibold text-white hover:underline">Staff</a>
                     </Link>
-                    <Link href="/legal">
+                    {/* Temporarily disabled */}
+                    {/* <Link href="/legal">
                         <a className="text-sm font-semibold text-white hover:underline">Legal</a>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </nav>
