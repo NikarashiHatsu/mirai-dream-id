@@ -79,7 +79,7 @@ export default function Staff() {
                                 image="/staff/dani.webp"
                                 name="Dani"
                                 role="Graphic Designer, Video Clipper"
-                                facebook="https://www.facebook.com/pranoto.dimas.7"
+                                facebook="https://www.facebook.com/dani.putrap.1"
                                 twitter="https://twitter.com/roe2ro" />
                         </div>
                     </div>
