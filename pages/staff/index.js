@@ -49,7 +49,8 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/fuad_fauzi.webp"
                                 name="Fuad Fauzi"
-                                role="Bendahara - Marketing" />
+                                role="Bendahara - Marketing"
+                                facebook="https://www.facebook.com/fuad47jha" />
                             <StaffCard
                                 image="/staff/seisou.webp"
                                 name="Seisou"
@@ -63,7 +64,8 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/dimas_budi.webp"
                                 name="Dimas Budi"
-                                role="Video Clipper / MV Editor" />
+                                role="Video Clipper / MV Editor"
+                                facebook="https://www.facebook.com/pranoto.dimas.7" />
                             <StaffCard
                                 image="/staff/aghits_nidallah.webp"
                                 name="Aghits Nidallah"
@@ -76,7 +78,9 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/dani.webp"
                                 name="Dani"
-                                role="Graphic Designer, Video Clipper" />
+                                role="Graphic Designer, Video Clipper"
+                                facebook="https://www.facebook.com/pranoto.dimas.7"
+                                twitter="https://twitter.com/roe2ro" />
                         </div>
                     </div>
                 </div>
@@ -117,7 +121,8 @@ export default function Staff() {
                                 <StaffCard
                                     className="text-gray-700"
                                     name="EiShaa"
-                                    role="Vice Head Quarter Mirai Dream Studio" />
+                                    role="Vice Head Quarter Mirai Dream Studio"
+                                    twitter="https://twitter.com/shaacwan" />
                             </div>
                         </div>
                     </div>
