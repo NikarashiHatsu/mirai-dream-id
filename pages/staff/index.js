@@ -30,6 +30,9 @@ export default function Staff() {
                         <h2 className="text-4xl text-center text-white">
                             Mirai Dream Corporation
                         </h2>
+                        <a class="text-center underline" href="mailto:miraidreamid@gmail.com">
+                            miraidreamid@gmail.com
+                        </a>
                         <div className="grid w-full max-w-4xl grid-flow-row grid-cols-4 gap-6 mx-auto mt-10">
                             <StaffCard
                                 image="/staff/isamu_riandi.webp"
@@ -88,6 +91,9 @@ export default function Staff() {
                         <h2 className="text-4xl text-center text-white text-gray-700">
                             Mirai Dream Studio
                         </h2>
+                        <a class="text-center underline text-gray-700" href="mailto:miraidreamstudio@gmail.com">
+                        miraidreamstudio@gmail.com
+                        </a>
                         <div className="flex justify-center">
                             <div className="grid w-full max-w-xl grid-flow-row grid-cols-3 gap-6 mx-auto mt-10">
                                 <StaffCard
