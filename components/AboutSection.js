@@ -3,7 +3,14 @@ import Particles from 'react-particles-js'
 
 export default function AboutSection() {
     return (
-        <div className="relative flex items-center w-full text-white bg-gradient-to-br from-purple-800 to-purple-700" id="about">
+        <div className="relative flex items-center w-full text-white bg-purple-700" id="about">
+            {/* Top Separator */}
+            <div className="absolute right-0 w-full h-8 bg-yellow-300 -top-8 transform-gpu skew-y-2"></div>
+            <div className="absolute right-0 w-full h-8 bg-yellow-200 -top-4 transform-gpu skew-y-1"></div>
+            <div className="absolute top-0 right-0 w-full h-8 bg-purple-500"></div>
+            <div className="absolute right-0 w-full h-8 bg-purple-600 top-4 transform-gpu -skew-y-1"></div>
+            <div className="absolute right-0 w-full h-8 bg-purple-700 top-8 transform-gpu -skew-y-2"></div>
+
             <div className="absolute top-0 left-0 w-full h-full">
                 <Particles className="w-full h-full" params={ParticlesJsConfig} />
             </div>
@@ -11,7 +18,7 @@ export default function AboutSection() {
             <div className="flex grid items-center grid-flow-row grid-cols-11 gap-6 pt-32 pb-20 mx-auto max-w-7xl">
                 <div className="flex flex-col col-span-5">
                     <h2 className="text-4xl font-bold tracking-widest text-yellow-300 uppercase">
-                        About Us
+                        Tentang Kami
                     </h2>
                     <p className="mt-4 text-lg leading-loose text-yellow-200">
                         Sebuah korporasi dari Indonesia yang bergerak di dunia Entertainment. Kami bertujuan untuk membawa angin perubahan bagi dunia entertainment terutama Virtual YouTuber dan juga dunia animasi.
@@ -45,24 +52,8 @@ export default function AboutSection() {
                             <li className="text-left text-purple-900">Memberikan hiburan berkualitas kepada masyarakat seluruh kalangan.</li>
                         </ol>
                     </div>
-
-                    <div className="absolute top-0 left-0 w-8 h-8 m-2 border-t-2 border-l-2 border-purple-700 rounded-tl"></div>
-                    <div className="absolute top-0 right-0 w-8 h-8 m-2 border-t-2 border-r-2 border-purple-700 rounded-tr"></div>
-                    <div className="absolute bottom-0 left-0 w-8 h-8 m-2 border-b-2 border-l-2 border-purple-700 rounded-bl"></div>
-                    <div className="absolute bottom-0 right-0 w-8 h-8 m-2 border-b-2 border-r-2 border-purple-700 rounded-br"></div>
                 </div>
             </div>
-
-            {/* Top Separator */}
-            <div className="absolute right-0 w-full h-8 bg-purple-500 top-4 transform-gpu -skew-y-1"></div>
-            <div className="absolute top-0 right-0 w-full h-8 bg-purple-400"></div>
-            <div className="absolute right-0 w-full h-8 bg-yellow-200 -top-4 transform-gpu skew-y-1"></div>
-            <div className="absolute right-0 w-full h-8 bg-yellow-300 -top-8 transform-gpu skew-y-2"></div>
-
-            {/* Bottom Separator */}
-            <div className="absolute right-0 w-full h-8 bg-purple-500 bottom-4 transform-gpu -skew-y-1"></div>
-            <div className="absolute bottom-0 right-0 w-full h-8 bg-purple-400"></div>
-            <div className="absolute right-0 w-full h-8 bg-blue-100 -bottom-4 transform-gpu skew-y-1"></div>
         </div>
     )
 }

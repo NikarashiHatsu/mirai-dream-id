@@ -23,10 +23,10 @@ export default function Home() {
 
             <div className="font-lexend">
                 <HeroSection />         {/* Done */}
-                <TalentSection />
+                <TalentSection />       {/* Done */}
                 <AboutSection />        {/* Done */}
-                <FoundersSection />
-                <ContactSection />
+                <FoundersSection />     {/* Done */}
+                <ContactSection />      {/* Done */}
                 <Footer />              {/* Done */}
             </div>
         </>
