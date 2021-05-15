@@ -6,7 +6,7 @@ export default function Navbar() {
             <div className="flex justify-between w-full mx-auto max-w-7xl">
                 <div className="flex items-center pl-4">
                     <img src="/mirai_dream.webp" className="w-8 h-8" />
-                    <p className="ml-4 font-semibold text-white">MIRAI DREAM ID</p>
+                    <p className="hidden ml-4 font-semibold text-white sm:block">MIRAI DREAM ID</p>
                 </div>
 
                 <div className="flex items-center px-4 rounded-lg">

@@ -1,5 +1,5 @@
 export default function StaffCard({className = '', image, name, role, facebook = '#', twitter = '#'}) {
-    let fixedClassName = className + ' flex flex-col items-center text-center'
+    let fixedClassName = className + ' col-span-1 flex flex-col items-center text-center'
 
     return (
         <div className={ fixedClassName }>

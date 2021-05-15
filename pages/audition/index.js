@@ -21,8 +21,13 @@ export default function Audition() {
 
         return (
             <div className="flex flex-col">
-                <h3 className="mb-4 text-3xl">Audisi telah dimulai!</h3>
-                <span>{ days } Hari - { hours } Jam - { minutes } Menit - { seconds } Detik.</span>
+                <h3 className="mb-8 text-3xl">Audisi telah dimulai! Daftar sebelum</h3>
+                <div className="flex flex-col lg:flex-row">
+                    <span className="mb-4 lg:mb-0">{ days } Hari</span> <span className="hidden lg:block">-</span>
+                    <span className="mb-4 lg:mb-0">{ hours } Jam</span> <span className="hidden lg:block">-</span>
+                    <span className="mb-4 lg:mb-0">{ minutes } Menit</span> <span className="hidden lg:block">-</span>
+                    <span className="mb-4 lg:mb-0">{ seconds } Detik</span>
+                </div>
 
                 <div className="flex justify-center">
                     <a className="px-4 py-2 mt-12 text-2xl text-blue-700 transition-colors bg-white rounded hover:bg-blue-800 hover:text-white" target="_blank" href="https://docs.google.com/forms/d/1KiDgazYV4SEwMI8uSfYbKppcLoU6E8OroSqrMMkScxM">
@@ -40,7 +45,18 @@ export default function Audition() {
                 renderer={ renderedAfter } />
         }
 
-        return <span>{ days } Hari - { hours } Jam - { minutes } Menit - { seconds } Detik.</span>
+        return (
+            <div className="flex flex-col">
+                <h3 className="mb-8 text-3xl">Audisi akan dimulai dalam:</h3>
+
+                <div className="flex flex-col justify-center lg:flex-row">
+                    <span className="mb-4 text-2xl lg:text-5xl lg:mb-0">{ days } Hari</span> <span className="hidden mx-4 lg:block">-</span>
+                    <span className="mb-4 text-2xl lg:text-5xl lg:mb-0">{ hours } Jam</span> <span className="hidden mx-4 lg:block">-</span>
+                    <span className="mb-4 text-2xl lg:text-5xl lg:mb-0">{ minutes } Menit</span> <span className="hidden mx-4 lg:block">-</span>
+                    <span className="mb-4 text-2xl lg:text-5xl lg:mb-0">{ seconds } Detik</span>
+                </div>
+            </div>
+        )
     }
 
     return (

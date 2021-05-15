@@ -27,13 +27,13 @@ export default function Staff() {
                         <Particles params={ParticlesJsConfig} />
                     </div>
                     <div className="static top-0 z-10 flex flex-col w-full mx-auto max-w-7xl">
-                        <h2 className="text-4xl text-center text-white">
+                        <h2 className="mb-4 text-4xl text-center text-white">
                             Mirai Dream Corporation
                         </h2>
-                        <a class="text-center underline" href="mailto:miraidreamid@gmail.com">
+                        <a className="text-center underline" href="mailto:miraidreamid@gmail.com">
                             miraidreamid@gmail.com
                         </a>
-                        <div className="grid w-full max-w-4xl grid-flow-row grid-cols-4 gap-6 mx-auto mt-10">
+                        <div className="grid w-full max-w-4xl grid-flow-row grid-cols-1 gap-8 mx-auto mt-10 sm:gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                             <StaffCard
                                 image="/staff/isamu_riandi.webp"
                                 name="Isamu Riandi"
@@ -73,17 +73,15 @@ export default function Staff() {
                             <StaffCard
                                 name="Renzuku"
                                 role="Web Dev, MV Editor, Layout Maker" />
-                            <div className="flex justify-center col-span-4">
-                                <StaffCard
-                                    image="/staff/dani.webp"
-                                    name="Dani"
-                                    role="Graphic Designer, Video Clipper" />
-                            </div>
+                            <StaffCard
+                                image="/staff/dani.webp"
+                                name="Dani"
+                                role="Graphic Designer, Video Clipper" />
                         </div>
                     </div>
                 </div>
 
-                <div className="relative flex items-center w-full min-h-screen text-white bg-yellow-300">
+                <div className="relative flex items-center w-full min-h-screen pb-24 text-white bg-yellow-300 pt-28">
                     {/* Top Separator */}
                     <div className="absolute right-0 w-full h-8 bg-purple-500 -top-8 transform-gpu -skew-y-2"></div>
                     <div className="absolute right-0 w-full h-8 bg-purple-400 -top-4 transform-gpu -skew-y-1"></div>
@@ -97,11 +95,11 @@ export default function Staff() {
                         <h2 className="text-4xl text-center text-white text-gray-700">
                             Mirai Dream Studio
                         </h2>
-                        <a class="text-center underline text-gray-700" href="mailto:miraidreamstudio@gmail.com">
-                        miraidreamstudio@gmail.com
+                        <a className="text-center text-gray-700 underline" href="mailto:miraidreamstudio@gmail.com">
+                            miraidreamstudio@gmail.com
                         </a>
                         <div className="flex justify-center">
-                            <div className="grid w-full max-w-xl grid-flow-row grid-cols-3 gap-6 mx-auto mt-10">
+                            <div className="grid w-full max-w-4xl grid-flow-row grid-cols-1 gap-8 mx-auto mt-10 sm:gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                                 <StaffCard
                                     image="/staff/zetsu.webp"
                                     className="text-gray-700"

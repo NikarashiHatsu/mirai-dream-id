@@ -14,16 +14,16 @@ export default function FounderSection() {
                 <Particles params={ParticlesJsConfig} />
             </div>
 
-            <div className="static z-20 flex flex-col w-full mx-auto max-w-7xl">
+            <div className="static z-20 flex flex-col w-full px-8 pt-24 pb-20 mx-auto max-w-7xl">
                 <h3 className="mb-8 text-3xl text-center text-gray-700">Founders</h3>
-                <div className="grid max-w-2xl grid-flow-row grid-cols-2 gap-8 mx-auto">
+                <div className="grid max-w-2xl grid-flow-row grid-cols-1 gap-12 mx-auto md:gap-8 md:grid-cols-2">
                     <div className="flex flex-col items-center col-span-1">
                         <div className="relative w-32 h-32 mb-4 bg-white">
                             <img src="/staff/isamu_riandi.webp" className="absolute top-0 left-0 w-32 h-32 border-4 border-purple-800" />
                         </div>
                         <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">CEO Isamu Riandi</h4>
                         <p className="mb-4 leading-relaxed tracking-wider text-center text-gray-700">
-                            Non veniam laboris veniam exercitation eiusmod consequat aliqua commodo pariatur et ad sint commodo commodo.
+                            Berpengalaman di dunia bisnis dan analisis, mempunyai keahlian dalam pemecahan masalah dan mengambil keputusan penting. Mempunyai keinginan mengembangkan dunia entairtement di Indonesia.
                         </p>
                         <div className="flex justify-center w-full">
                             <a className="block w-8 mb-2 text-gray-700" target="_blank" href="https://web.facebook.com/isamu.riandi">
@@ -46,7 +46,7 @@ export default function FounderSection() {
                         </div>
                         <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">Vice CEO Pratama M. Iqbal</h4>
                         <p className="mb-4 leading-relaxed tracking-wider text-center text-gray-700">
-                            Non veniam laboris veniam exercitation eiusmod consequat aliqua commodo pariatur et ad sint commodo commodo.
+                            Mendalami bidang analitik dan perkembangan dunia entertaintment, mempunyai antusiasme dalam dunia Virtual Youtuber.  Mempunyai misi membawa angin perubahan dalam dunia Entertaintment dan Peranimasian di Indonesia.
                         </p>
                         <div className="flex justify-center w-full">
                             <a className="block w-8 mb-2 text-gray-700" target="_blank" href="https://www.facebook.com/pratama458">
