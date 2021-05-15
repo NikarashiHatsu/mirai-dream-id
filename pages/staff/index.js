@@ -99,7 +99,7 @@ export default function Staff() {
                             miraidreamstudio@gmail.com
                         </a>
                         <div className="flex justify-center">
-                            <div className="grid w-full max-w-4xl grid-flow-row grid-cols-1 gap-8 mx-auto mt-10 sm:gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                            <div className="grid w-full max-w-2xl grid-flow-row grid-cols-1 gap-8 mx-auto mt-10 sm:grid-cols-3 sm:gap-6">
                                 <StaffCard
                                     image="/staff/zetsu.webp"
                                     className="text-gray-700"

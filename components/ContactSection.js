@@ -16,10 +16,7 @@ export default function ContactSection() {
             </div>
             <div className="static top-0 z-10 flex flex-col w-full px-8 mx-auto max-w-7xl">
                 <h3 className="mb-6 text-3xl text-center">Hubungi Kami</h3>
-                {/* Mirai Dream Corp */}
-                {/* <form className="grid max-w-5xl grid-flow-row grid-cols-2 gap-6 mx-auto" method="POST" action="https://formspree.io/f/mgerazvv"> */}
-                {/* Mirai Dream Studio */}
-                <form className="grid w-full max-w-xl grid-flow-row grid-cols-1 gap-6 mx-auto md:grid-cols-2" method="POST" action="https://formspree.io/f/xqkwplaw">
+                <form className="grid w-full max-w-xl grid-flow-row grid-cols-1 gap-6 mx-auto md:grid-cols-2" method="POST" action="https://formspree.io/f/mgerazvv">
                     <div className="flex flex-col col-span-1">
                         <label for="nama">Nama</label>
                         <input className="px-4 py-2 mt-2 text-gray-700 border border-gray-700 rounded" name="nama" id="nama" type="text" required />
