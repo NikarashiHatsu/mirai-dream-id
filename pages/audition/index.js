@@ -71,7 +71,7 @@ export default function Audition() {
             <Navbar />
 
             <div className="font-lexend">
-                <div className="relative flex items-center justify-center w-full min-h-screen py-24 text-white bg-blue-700">
+                <div className="relative flex items-center justify-center w-full min-h-screen px-8 py-24 text-white bg-blue-700">
                     <div className="absolute top-0 left-0 w-full h-full">
                         <Particles params={ParticlesJsConfig} />
                     </div>
