@@ -23,7 +23,7 @@ export default function FounderSection() {
                         </div>
                         <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">CEO Isamu Riandi</h4>
                         <p className="mb-4 leading-relaxed tracking-wider text-center text-gray-700">
-                            Berpengalaman di dunia bisnis dan analisis, mempunyai keahlian dalam pemecahan masalah dan mengambil keputusan penting. Mempunyai keinginan mengembangkan dunia entairtement di Indonesia.
+                            Berpengalaman di dunia bisnis dan analisis, mempunyai keahlian dalam pemecahan masalah dan mengambil keputusan penting. Mempunyai keinginan mengembangkan dunia entertainment di Indonesia.
                         </p>
                         <div className="flex justify-center w-full">
                             <a className="block w-8 mb-2 text-gray-700" target="_blank" href="https://web.facebook.com/isamu.riandi">

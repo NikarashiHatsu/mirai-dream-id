@@ -52,6 +52,11 @@ export default function AboutSection() {
                             <li className="text-left text-purple-900">Memberikan hiburan berkualitas kepada masyarakat seluruh kalangan.</li>
                         </ol>
                     </div>
+
+                    <div className="absolute top-0 left-0 w-8 h-8 m-2 border-t-2 border-l-2 border-purple-700 rounded-tl"></div>
+                    <div className="absolute top-0 right-0 w-8 h-8 m-2 border-t-2 border-r-2 border-purple-700 rounded-tr"></div>
+                    <div className="absolute bottom-0 left-0 w-8 h-8 m-2 border-b-2 border-l-2 border-purple-700 rounded-bl"></div>
+                    <div className="absolute bottom-0 right-0 w-8 h-8 m-2 border-b-2 border-r-2 border-purple-700 rounded-br"></div>
                 </div>
             </div>
         </div>

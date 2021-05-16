@@ -19,8 +19,8 @@ export default function Navbar() {
                     <Link href="/staff">
                         <a className="mr-6 text-sm font-semibold text-white hover:underline">Staff</a>
                     </Link>
-                    <a href="https://studio.mirai-dream.com" target="_blank" className="mr-6 text-sm font-semibold text-white hover:underline">
-                        Studio (Coming Soon)
+                    <a href="https://studio.mirai-dream.com" target="_blank" className="flex mr-6 text-sm font-semibold text-white hover:underline">
+                        Studio <span className="hidden ml-1 md:block">(Coming Soon)</span>
                     </a>
                     {/* Temporarily disabled */}
                     {/* <Link href="/legal">
