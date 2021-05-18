@@ -81,6 +81,9 @@ export default function Staff() {
                                 role="Graphic Designer, Video Clipper"
                                 facebook="https://www.facebook.com/dani.putrap.1"
                                 twitter="https://twitter.com/roe2ro" />
+                            <StaffCard
+                                name={<i>Coming Soon</i>}
+                                role="Manajer Talent" />
                         </div>
                     </div>
                 </div>
