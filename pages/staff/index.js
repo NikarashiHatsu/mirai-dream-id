@@ -64,7 +64,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/dimas_budi.webp"
                                 name="Dimas Budi"
-                                role="Video Clipper / MV Editor"
+                                role="Video Clipper & MV Editor"
                                 facebook="https://www.facebook.com/pranoto.dimas.7" />
                             <StaffCard
                                 image="/staff/aghits_nidallah.webp"
@@ -82,7 +82,7 @@ export default function Staff() {
                                 facebook="https://www.facebook.com/dani.putrap.1"
                                 twitter="https://twitter.com/roe2ro" />
                             <StaffCard
-                                name={<i>Coming Soon</i>}
+                                name="Andrew Philips"
                                 role="Manajer Talent" />
                         </div>
                     </div>
@@ -111,20 +111,20 @@ export default function Staff() {
                                     image="/staff/zetsu.webp"
                                     className="text-gray-700"
                                     name="Zetsu"
-                                    role="Head Quarter Mirai Dream Studio"
+                                    role="Live2D Rigger - Head Quarter Mirai Dream Studio"
                                     facebook="https://www.facebook.com/ZetsubouOu/"
                                     twitter="https://twitter.com/zetsuhere" />
                                 <StaffCard
                                     image="/staff/fatah.webp"
                                     className="text-gray-700"
                                     name="Fatah"
-                                    role="Vice Head Quarter Mirai Dream Studio"
+                                    role="Live2D Artist - Vice Head Quarter Mirai Dream Studio"
                                     facebook="https://www.facebook.com/sadao.fatah"
                                     twitter="https://twitter.com/slfatah" />
                                 <StaffCard
                                     className="text-gray-700"
                                     name="EiShaa"
-                                    role="Vice Head Quarter Mirai Dream Studio"
+                                    role="Regular Illustrator - Vice Head Quarter Mirai Dream Studio"
                                     twitter="https://twitter.com/shaacwan" />
                             </div>
                         </div>
