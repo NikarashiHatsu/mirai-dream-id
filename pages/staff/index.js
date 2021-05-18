@@ -28,7 +28,7 @@ export default function Staff() {
                     </div>
                     <div className="static top-0 z-10 flex flex-col w-full mx-auto max-w-7xl">
                         <h2 className="mb-4 text-4xl text-center text-white">
-                            Mirai Dream Corporation
+                            Mirai Dream Indonesia
                         </h2>
                         <a className="text-center underline" href="mailto:miraidreamid@gmail.com">
                             miraidreamid@gmail.com
@@ -49,7 +49,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/fuad_fauzi.webp"
                                 name="Fuad Fauzi"
-                                role="Bendahara - Marketing"
+                                role="Bendahara & Marketing"
                                 facebook="https://www.facebook.com/fuad47jha" />
                             <StaffCard
                                 image="/staff/seisou.webp"
@@ -59,7 +59,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/reru_pi.webp"
                                 name="Reru / Pi"
-                                role="Social Media Admin"
+                                role="HRD & Admin Sosial Media"
                                 twitter="https://twitter.com/ReRunotReU" />
                             <StaffCard
                                 image="/staff/dimas_budi.webp"

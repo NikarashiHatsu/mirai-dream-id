@@ -21,7 +21,7 @@ export default function AboutSection() {
                         Tentang Kami
                     </h2>
                     <p className="mt-4 text-lg leading-loose text-yellow-200">
-                        Sebuah korporasi dari Indonesia yang bergerak di dunia Entertainment. Kami bertujuan untuk membawa angin perubahan bagi dunia entertainment terutama Virtual YouTuber dan juga dunia animasi.
+                        Sebuah tim dari Indonesia yang bergerak di dunia Entertainment. Kami bertujuan untuk membawa angin perubahan bagi dunia entertainment terutama Virtual YouTuber dan juga dunia animasi.
                     </p>
                 </div>
                 <div className="relative flex items-start justify-center h-full col-span-12 p-6 pt-16 mx-auto bg-yellow-300 rounded md:col-span-6 lg:col-span-3">

@@ -51,7 +51,7 @@ export default class HeroSection extends React.Component {
                                 Mirai Dream ID
                             </h3>
                             <p className="mb-6 text-xl leading-relaxed tracking-wider">
-                                Sebuah korporasi dari Indonesia yang bergerak di dunia Entertainment. <i>Let's grow up and shine together</i>!
+                                Sebuah tim dari Indonesia yang bergerak di dunia Entertainment. <i>Let's grow up and shine together</i>!
                             </p>
                             <div className="relative overflow-hidden h-14">
                                 <Link to="about" smooth="easeInOut" duration={1000} className="inline-block w-48 px-4 py-2 font-semibold text-center text-purple-700 transition-colors duration-300 bg-white rounded hover:bg-purple-900 hover:text-amber-300">
