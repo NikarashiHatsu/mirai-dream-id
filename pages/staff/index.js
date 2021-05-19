@@ -82,7 +82,8 @@ export default function Staff() {
                                 facebook="https://www.facebook.com/dani.putrap.1"
                                 twitter="https://twitter.com/roe2ro" />
                             <StaffCard
-                                name="Andrew Philips"
+                                image="/staff/andrew_phillips.webp"
+                                name="Andrew Phillips"
                                 role="Manajer Talent" />
                         </div>
                     </div>
