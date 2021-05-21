@@ -73,12 +73,13 @@ export default function Staff() {
                                 facebook="https://facebook.com/irlnidallah"
                                 twitter="https://twitter.com/NikarashiHatsu" />
                             <StaffCard
+                                image="/staff/renzuku.webp"
                                 name="Renzuku"
                                 role="Web Dev, MV Editor, Layout Maker" />
                             <StaffCard
                                 image="/staff/dani.webp"
                                 name="Dani"
-                                role="Graphic Designer, Video Clipper"
+                                role="Graphic Designer & Video Clipper"
                                 facebook="https://www.facebook.com/dani.putrap.1"
                                 twitter="https://twitter.com/roe2ro" />
                             <StaffCard
