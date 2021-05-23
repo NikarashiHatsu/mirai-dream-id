@@ -20,12 +20,12 @@ export default function Audition() {
         }
 
         return (
-            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
                 <h3 className="mb-8 text-3xl">Audisi telah dimulai! Daftar sebelum</h3>
                 <div className="flex flex-col lg:flex-row">
-                    <span className="mb-4 lg:mb-0">{ days } Hari</span> <span className="hidden lg:block">-</span>
-                    <span className="mb-4 lg:mb-0">{ hours } Jam</span> <span className="hidden lg:block">-</span>
-                    <span className="mb-4 lg:mb-0">{ minutes } Menit</span> <span className="hidden lg:block">-</span>
+                    <span className="mb-4 lg:mb-0">{ days } Hari</span> <span className="hidden lg:block mx-4">-</span>
+                    <span className="mb-4 lg:mb-0">{ hours } Jam</span> <span className="hidden lg:block mx-4">-</span>
+                    <span className="mb-4 lg:mb-0">{ minutes } Menit</span> <span className="hidden lg:block mx-4">-</span>
                     <span className="mb-4 lg:mb-0">{ seconds } Detik</span>
                 </div>
 
