@@ -18,15 +18,15 @@ export default function ContactSection() {
                 <h3 className="mb-6 text-3xl text-center">Hubungi Kami</h3>
                 <form className="grid w-full max-w-xl grid-flow-row grid-cols-1 gap-6 mx-auto md:grid-cols-2" method="POST" action="https://formspree.io/f/mgerazvv">
                     <div className="flex flex-col col-span-1">
-                        <label for="nama">Nama</label>
+                        <label htmlFor="nama">Nama</label>
                         <input className="px-4 py-2 mt-2 text-gray-700 border border-gray-700 rounded" name="nama" id="nama" type="text" required />
                     </div>
                     <div className="flex flex-col col-span-1">
-                        <label for="email">Email</label>
+                        <label htmlFor="email">Email</label>
                         <input className="px-4 py-2 mt-2 text-gray-700 border border-gray-700 rounded" name="email" id="email" type="email" required />
                     </div>
                     <div className="flex flex-col col-span-1 md:col-span-2">
-                        <label for="pesan">Pesan Anda</label>
+                        <label htmlFor="pesan">Pesan Anda</label>
                         <textarea className="px-4 py-2 mt-2 text-gray-700 border border-gray-700 rounded" name="pesan" id="pesan" rows="10" minLength="16" required></textarea>
                     </div>
                     <div className="flex justify-center col-span-1 md:col-span-2">

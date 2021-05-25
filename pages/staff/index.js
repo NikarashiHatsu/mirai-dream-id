@@ -49,7 +49,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/fuad_fauzi.webp"
                                 name="Fuad Fauzi"
-                                role="Bendahara & Marketing"
+                                role="Finance Officer & Marketing"
                                 facebook="https://www.facebook.com/fuad47jha" />
                             <StaffCard
                                 image="/staff/seisou.webp"
@@ -58,8 +58,8 @@ export default function Staff() {
                                 twitter="https://twitter.com/seisomine" />
                             <StaffCard
                                 image="/staff/reru_pi.webp"
-                                name="Reru / Pi"
-                                role="HRD & Admin Sosial Media"
+                                name="&#120587;"
+                                role="HRD & Social Media Admin"
                                 twitter="https://twitter.com/ReRunotReU" />
                             <StaffCard
                                 image="/staff/dimas_budi.webp"
@@ -85,7 +85,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/andrew_phillips.webp"
                                 name="Andrew Phillips"
-                                role="Manajer Talent" />
+                                role="Talent Manager" />
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ export default function Staff() {
                         <Particles params={ParticlesJsConfig} />
                     </div>
                     <div className="static top-0 z-10 flex flex-col w-full mx-auto max-w-7xl">
-                        <h2 className="text-4xl text-center text-white text-gray-700">
+                        <h2 className="text-4xl text-center text-gray-700">
                             Mirai Dream Studio
                         </h2>
                         <a className="text-center text-gray-700 underline" href="mailto:miraidreamstudio@gmail.com">
