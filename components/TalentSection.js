@@ -64,7 +64,7 @@ export default function TalentSection() {
                         
                         <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold px-8">
                             <div className="grid grid-cols-2 grid-flow-row gap-4">
-                                <button className="w-20 h-20 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal}>
+                                <button className="w-32 h-32 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal}>
                                     <img src="/talents_thumbnail/talent_01.webp" />
                                 </button>
 
@@ -114,7 +114,7 @@ export default function TalentSection() {
                                     </div>
                                 </Modal>
                                 
-                                <button className="w-20 h-20 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal2}>
+                                <button className="w-32 h-32 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal2}>
                                     <img src="/talents_thumbnail/talent_02.webp" />
                                 </button>
 
