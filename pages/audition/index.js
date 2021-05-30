@@ -12,7 +12,7 @@ import ParticlesJsConfig from '../../components/particlesjs-config.json'
 
 export default function Audition() {
     const dateBeforeAudition = Date.parse("May 23, 2021. 07:00")
-    const dateAfterAudition = Date.parse("May 30, 2021. 23:59")
+    const dateAfterAudition = Date.parse("May 30, 2021. 21:00")
 
     const renderedAfter = ({ days, hours, minutes, seconds, completed }) => {
         if(completed) {

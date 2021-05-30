@@ -2,7 +2,8 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as ga from '../lib/ga'
 
-import 'tailwindcss/tailwind.css'
+import '../styles/modal.css';
+import '../styles/globals.css'
 import '../styles/particles.js.css'
 
 function MyApp({ Component, pageProps }) {

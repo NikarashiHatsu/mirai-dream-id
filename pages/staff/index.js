@@ -120,13 +120,13 @@ export default function Staff() {
                                     image="/staff/fatah.webp"
                                     className="text-gray-700"
                                     name="Fatah"
-                                    role="Live2D Artist - Vice Head Quarter Mirai Dream Studio"
+                                    role="Live2D & Regular Illustrator - Vice Head Quarter Mirai Dream Studio"
                                     facebook="https://www.facebook.com/sadao.fatah"
                                     twitter="https://twitter.com/slfatah" />
                                 <StaffCard
                                     className="text-gray-700"
                                     name="EiShaa"
-                                    role="Regular Illustrator - Vice Head Quarter Mirai Dream Studio"
+                                    role="Live 2D & Regular Illustrator - Vice Head Quarter Mirai Dream Studio"
                                     twitter="https://twitter.com/shaacwan" />
                             </div>
                         </div>
