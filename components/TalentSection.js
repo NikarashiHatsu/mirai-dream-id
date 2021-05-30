@@ -55,11 +55,6 @@ export default function TalentSection() {
                                     Gen 1
                                 </button>
                             </Tab>
-                            <Tab className="outline-none">
-                                <button className="px-4 py-2 mb-8 outline-none rounded border hover:text-yellow-300 font-semibold bg-transparent text-purple-700 hover:bg-purple-800 transition-colors duration-300 ease-in-out border-gray-700">
-                                    Gen 2
-                                </button>
-                            </Tab>
                         </TabList>
                         
                         <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold px-8">
@@ -164,9 +159,6 @@ export default function TalentSection() {
                                     </div>
                                 </Modal>
                             </div>
-                        </TabPanel>
-                        <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold">
-                            <h3>-COMING SOON-</h3>
                         </TabPanel>
                     </Tabs>
                 </div>
