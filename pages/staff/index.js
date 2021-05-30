@@ -85,7 +85,8 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/andrew_phillips.webp"
                                 name="Andrew Phillips"
-                                role="Talent Manager" />
+                                role="Talent Manager"
+                                twitter="https://twitter.com/AndrewP_Mirai" />
                         </div>
                     </div>
                 </div>
@@ -121,13 +122,15 @@ export default function Staff() {
                                     className="text-gray-700"
                                     name="Fatah"
                                     role="Live2D & Regular Illustrator - Vice Head Quarter Mirai Dream Studio"
-                                    facebook="https://www.facebook.com/sadao.fatah"
-                                    twitter="https://twitter.com/slfatah" />
+                                    // facebook="https://www.facebook.com/sadao.fatah"
+                                    // twitter="https://twitter.com/slfatah" 
+                                />
                                 <StaffCard
                                     className="text-gray-700"
                                     name="EiShaa"
                                     role="Live 2D & Regular Illustrator - Vice Head Quarter Mirai Dream Studio"
-                                    twitter="https://twitter.com/shaacwan" />
+                                    // twitter="https://twitter.com/shaacwan"
+                                />
                             </div>
                         </div>
                     </div>
