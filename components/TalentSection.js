@@ -62,9 +62,9 @@ export default function TalentSection() {
                             </Tab>
                         </TabList>
                         
-                        <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold">
+                        <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold px-8">
                             <div className="grid grid-cols-2 grid-flow-row gap-4">
-                                <button className="w-48 h-48 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal}>
+                                <button className="w-48 h-48 sm:w-20 sm:h-20 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal}>
                                     <img src="/talents_thumbnail/talent_01.webp" />
                                 </button>
 
@@ -76,34 +76,34 @@ export default function TalentSection() {
                                     style={customModalStyle}
                                 >
                                     <div className="grid grid-cols-12 grid-flow-row gap-8">
-                                        <div className="col-span-4">
+                                        <div className="col-span-12 md:col-span-4">
                                             <img src="/talents/talent_01.webp" />
                                         </div>
-                                        <div className="col-span-8">
-                                            <div className="flex justify-between items-center mb-8">
-                                                <h3 className="text-3xl">
+                                        <div className="col-span-12 md:col-span-8">
+                                            <div className="relative flex justify-center md:justify-between items-center mb-8">
+                                                <h3 className="text-3xl md:text-left text-center">
                                                     <i>
                                                         -COMING SOON-
                                                     </i>
                                                 </h3>
-                                                <button className="font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out flex items-center justify-center" onClick={closeModal}>
+                                                <button className="absolute hidden md:flex top-8 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal}>
                                                     &times;
                                                 </button>
                                             </div>
-                                            <div className="grid grid-cols-12 grid-rows-4 grid-flow-row gap-8">
-                                                <div className="col-span-4 row-span-4">
+                                            <div className="grid grid-cols-12 grid-rows-3 md:grid-rows-4 grid-flow-row gap-8">
+                                                <div className="col-span-12 md:col-span-4 row-span-1 md:row-span-4">
                                                     <p className="text-lg mb-4">
                                                         Biodata Talent
                                                     </p>
                                                     <p><i>-COMING SOON-</i></p>
                                                 </div>
-                                                <div className="col-span-8 row-span-3">
+                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-3">
                                                     <p className="text-lg mb-4">
                                                         Lore Talent
                                                     </p>
                                                     <p><i>-COMING SOON-</i></p>
                                                 </div>
-                                                <div className="col-span-8 row-span-1">
+                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-1">
                                                     <p className="text-lg mb-4">
                                                         Sosial Media Talent
                                                     </p>
@@ -114,7 +114,7 @@ export default function TalentSection() {
                                     </div>
                                 </Modal>
                                 
-                                <button className="w-48 h-48 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal2}>
+                                <button className="w-48 h-48 sm:w-20 sm:h-20 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal2}>
                                     <img src="/talents_thumbnail/talent_02.webp" />
                                 </button>
 
@@ -126,34 +126,34 @@ export default function TalentSection() {
                                     style={customModalStyle}
                                 >
                                     <div className="grid grid-cols-12 grid-flow-row gap-8">
-                                        <div className="col-span-4">
+                                        <div className="col-span-12 md:col-span-4">
                                             <img src="/talents/talent_02.webp" />
                                         </div>
-                                        <div className="col-span-8">
-                                            <div className="flex justify-between items-center mb-8">
-                                                <h3 className="text-3xl">
+                                        <div className="col-span-12 md:col-span-8">
+                                            <div className="relative flex justify-center md:justify-between items-center mb-8">
+                                                <h3 className="text-3xl md:text-left text-center">
                                                     <i>
                                                         -COMING SOON-
                                                     </i>
                                                 </h3>
-                                                <button className="font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out flex items-center justify-center" onClick={closeModal}>
+                                                <button className="absolute hidden md:flex top-8 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal}>
                                                     &times;
                                                 </button>
                                             </div>
-                                            <div className="grid grid-cols-12 grid-rows-4 grid-flow-row gap-8">
-                                                <div className="col-span-4 row-span-4">
+                                            <div className="grid grid-cols-12 grid-rows-3 md:grid-rows-4 grid-flow-row gap-8">
+                                                <div className="col-span-12 md:col-span-4 row-span-1 md:row-span-4">
                                                     <p className="text-lg mb-4">
                                                         Biodata Talent
                                                     </p>
                                                     <p><i>-COMING SOON-</i></p>
                                                 </div>
-                                                <div className="col-span-8 row-span-3">
+                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-3">
                                                     <p className="text-lg mb-4">
                                                         Lore Talent
                                                     </p>
                                                     <p><i>-COMING SOON-</i></p>
                                                 </div>
-                                                <div className="col-span-8 row-span-1">
+                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-1">
                                                     <p className="text-lg mb-4">
                                                         Sosial Media Talent
                                                     </p>
