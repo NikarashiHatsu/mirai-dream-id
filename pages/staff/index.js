@@ -43,7 +43,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/pratama_m_iqbal.webp"
                                 name="Pratama M. Iqbal"
-                                role="Vice CEO"
+                                role="CTO"
                                 facebook="https://www.facebook.com/pratama458"
                                 twitter="https://twitter.com/TamaNegi_37" />
                             <StaffCard
@@ -53,7 +53,7 @@ export default function Staff() {
                                 facebook="https://www.facebook.com/fuad47jha" />
                             <StaffCard
                                 image="/staff/seisou.webp"
-                                name="Seisou"
+                                name="Seiso-chan"
                                 role="Discord Admin"
                                 twitter="https://twitter.com/seisomine" />
                             <StaffCard

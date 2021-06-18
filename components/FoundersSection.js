@@ -1,5 +1,6 @@
 import Particles from 'react-particles-js'
 import ParticlesJsConfig from '../components/particlesjs-config.json'
+import StaffCard from './StaffCard'
 
 export default function FounderSection() {
     return (
@@ -63,6 +64,20 @@ export default function FounderSection() {
                             </a>
                         </div>
                     </div>
+                </div>
+
+                <h3 className="mb-8 mt-24 text-3xl text-center text-gray-700">Our Partners</h3>
+                <div className="grid grid-cols-2 grid-flow-row mx-auto gap-8">
+                    <StaffCard
+                        className="text-gray-700"
+                        image="/partner/agil.png"
+                        name="IniAgil"
+                        youtube="https://www.youtube.com/channel/UCmJ0FuQ8idXqtXLXU9og7hA" />
+                    <StaffCard
+                        className="text-gray-700"
+                        image="/partner/madelta.png"
+                        name="Madelta"
+                        youtube="https://www.youtube.com/channel/UCZLBe0sFhSQayVz4WmrQz7g" />
                 </div>
             </div>
         </div>
