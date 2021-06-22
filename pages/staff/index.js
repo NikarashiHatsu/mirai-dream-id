@@ -43,7 +43,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/pratama_m_iqbal.webp"
                                 name="Pratama M. Iqbal"
-                                role="CTO"
+                                role="Chief Technology Officer"
                                 facebook="https://www.facebook.com/pratama458"
                                 twitter="https://twitter.com/TamaNegi_37" />
                             <StaffCard
@@ -54,7 +54,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/seisou.webp"
                                 name="Seiso-chan"
-                                role="Discord Admin"
+                                role="Discord Admin, MV Maker & Layout Maker"
                                 twitter="https://twitter.com/seisomine" />
                             <StaffCard
                                 image="/staff/reru_pi.webp"
@@ -64,7 +64,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/dimas_budi.webp"
                                 name="Dimas Budi"
-                                role="Video Clipper & MV Editor"
+                                role="Video Clipper"
                                 facebook="https://www.facebook.com/pranoto.dimas.7" />
                             <StaffCard
                                 image="/staff/aghits_nidallah.webp"
@@ -75,7 +75,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/renzuku.webp"
                                 name="Renzuku"
-                                role="Web Dev, MV Editor, Layout Maker" />
+                                role="Web Dev, Layout Maker" />
                             <StaffCard
                                 image="/staff/dani.webp"
                                 name="Dani"
@@ -87,6 +87,18 @@ export default function Staff() {
                                 name="Andrew Phillips"
                                 role="Talent Manager"
                                 twitter="https://twitter.com/AndrewP_Mirai" />
+                            <StaffCard
+                                image="/staff/roufan.jpg"
+                                name="Roufan"
+                                role="Video Editor & MV Maker"
+                                facebook="https://www.facebook.com/roufan.luthfi"
+                                twitter="https://www.instagram.com/roufan_luthfi/" />
+                            <StaffCard
+                                image="/staff/pochi.png"
+                                name="Utagaki Pochi"
+                                role="Audio Mixer & Music Composer"
+                                facebook="https://www.facebook.com/utagaki.pochi"
+                                twitter="https://twitter.com/UtaPochi" />
                         </div>
                     </div>
                 </div>

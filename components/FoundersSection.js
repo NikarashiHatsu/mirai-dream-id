@@ -22,7 +22,7 @@ export default function FounderSection() {
                         <div className="relative w-32 h-32 mb-4 bg-white">
                             <img src="/staff/isamu_riandi.webp" className="absolute top-0 left-0 w-32 h-32 border-4 border-purple-800" />
                         </div>
-                        <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">CEO Isamu Riandi</h4>
+                        <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">"CEO" Isamu Riandi</h4>
                         <p className="mb-4 leading-relaxed tracking-wider text-center text-gray-700">
                             Berpengalaman di dunia bisnis dan analisis, mempunyai keahlian dalam pemecahan masalah dan mengambil keputusan penting. Mempunyai keinginan mengembangkan dunia entertainment di Indonesia.
                         </p>
@@ -45,7 +45,7 @@ export default function FounderSection() {
                         <div className="relative w-32 h-32 mb-4 bg-white">
                             <img src="/staff/pratama_m_iqbal.webp" className="absolute top-0 left-0 w-32 h-32 border-4 border-purple-800" />
                         </div>
-                        <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">Vice CEO Pratama M. Iqbal</h4>
+                        <h4 className="mb-2 text-2xl font-semibold text-center text-gray-700">"CTO" Pratama M. Iqbal</h4>
                         <p className="mb-4 leading-relaxed tracking-wider text-center text-gray-700">
                             Mendalami bidang analitik dan perkembangan dunia entertaintment, mempunyai antusiasme dalam dunia Virtual Youtuber.  Mempunyai misi membawa angin perubahan dalam dunia Entertaintment dan Peranimasian di Indonesia.
                         </p>
