@@ -41,7 +41,9 @@ export default class HeroSection extends React.Component {
                                     </a> */}
                                 </div>
                                 <div className="relative w-full h-full aspect-w-16 aspect-h-8">
-                                    <div className="absolute w-full h-full bg-white rounded"></div>
+                                    <div className="absolute w-full h-full bg-white rounded">
+                                        <iframe className="absolute w-full h-full bg-white rounded" src="https://www.youtube.com/embed/nVI1AflPxWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -89,19 +91,10 @@ export default class HeroSection extends React.Component {
                                     </a> */}
                                 </div>
                                 <div className="relative w-full h-full aspect-w-16 aspect-h-8">
-                                    <div className="absolute w-full h-full bg-white rounded"></div>
+                                    <div className="absolute w-full h-full bg-white rounded">
+                                        <iframe className="absolute w-full h-full bg-white rounded" src="https://www.youtube.com/embed/nVI1AflPxWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="flex justify-center w-full mt-8">
-                                <a href="https://youtube.com" target="_blank" className="flex items-center text-xl font-semibold tracking-wider text-white uppercase">
-                                    <span>
-                                        Watch Full
-                                    </span>
-                                    <svg className="w-5 h-5 ml-2 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        {/* Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) */}
-                                        <path d="M85.14 475.8c-3.438-3.141-5.156-7.438-5.156-11.75c0-3.891 1.406-7.781 4.25-10.86l181.1-197.1L84.23 58.86c-6-6.5-5.625-16.64 .9062-22.61c6.5-6 16.59-5.594 22.59 .8906l192 208c5.688 6.156 5.688 15.56 0 21.72l-192 208C101.7 481.3 91.64 481.8 85.14 475.8z"/>
-                                    </svg>
-                                </a>
                             </div>
                         </div>
                     </div>
