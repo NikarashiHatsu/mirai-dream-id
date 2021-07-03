@@ -42,7 +42,7 @@ export default class HeroSection extends React.Component {
                                 </div>
                                 <div className="relative w-full h-full aspect-w-16 aspect-h-8">
                                     <div className="absolute w-full h-full bg-white rounded">
-                                        <iframe className="absolute w-full h-full bg-white rounded" src="https://www.youtube.com/embed/nVI1AflPxWM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe className="absolute w-full h-full bg-white rounded" src="https://www.youtube.com/embed/nVI1AflPxWM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ export default class HeroSection extends React.Component {
                                 </div>
                                 <div className="relative w-full h-full aspect-w-16 aspect-h-8">
                                     <div className="absolute w-full h-full bg-white rounded">
-                                        <iframe className="absolute w-full h-full bg-white rounded" src="https://www.youtube.com/embed/nVI1AflPxWM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe className="absolute w-full h-full bg-white rounded" src="https://www.youtube.com/embed/nVI1AflPxWM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                     </div>
                                 </div>
                             </div>
