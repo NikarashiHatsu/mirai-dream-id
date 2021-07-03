@@ -101,7 +101,7 @@ export default function Staff() {
                                 twitter="https://twitter.com/UtaPochi" />
                             <StaffCard
                                 image="/staff/vathlauss.png"
-                                name="Vathaluss"
+                                name="Vathlauss"
                                 role="Discord Moderator" />
                         </div>
                     </div>
