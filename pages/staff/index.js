@@ -43,7 +43,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/pratama_m_iqbal.webp"
                                 name="Pratama M. Iqbal"
-                                role="Chief Technology Officer"
+                                role="Co-founder & CTO"
                                 facebook="https://www.facebook.com/pratama458"
                                 twitter="https://twitter.com/TamaNegi_37" />
                             <StaffCard
