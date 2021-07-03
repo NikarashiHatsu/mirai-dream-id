@@ -92,7 +92,7 @@ export default function Staff() {
                                 name="Roufan"
                                 role="Video Editor & MV Maker"
                                 facebook="https://www.facebook.com/roufan.luthfi"
-                                twitter="https://www.instagram.com/roufan_luthfi/" />
+                                instagram="https://www.instagram.com/roufan_luthfi/" />
                             <StaffCard
                                 image="/staff/pochi.png"
                                 name="Utagaki Pochi"
