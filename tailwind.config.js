@@ -13,6 +13,9 @@ module.exports = {
         amber: colors.amber,
         gray: colors.blueGray,
       },
+      spacing: {
+        '120': '30rem'
+      },
       fontFamily: {
         lexend: ['"Lexend"', 'serif'],
         valeraRound: ['"Varela Round"', 'serif']
