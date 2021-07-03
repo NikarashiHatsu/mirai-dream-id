@@ -7,6 +7,12 @@
   opacity: 1;
 }
 
+.ReactModal__Content.ReactModal__Content--after-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ReactModal__Overlay--before-close{
   opacity: 0;
 }

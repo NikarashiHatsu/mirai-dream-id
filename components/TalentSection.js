@@ -68,7 +68,7 @@ export default function TalentSection() {
                         <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold px-8">
                             <div className="grid grid-cols-2 grid-flow-row gap-4">
                                 <button className="w-32 h-32 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal}>
-                                    <img src="/talents_thumbnail/talent_01.webp" />
+                                    <img src="/talents_thumbnail/revina_square.png" />
                                 </button>
 
                                 <Modal
@@ -78,11 +78,11 @@ export default function TalentSection() {
                                     onRequestClose={closeModal}
                                     style={customModalStyle}
                                 >
-                                    <div className="grid grid-cols-12 grid-flow-row gap-8">
-                                        <div className="col-span-12 md:col-span-4">
-                                            <img src="/talents/talent_01.webp" />
+                                    <div className="grid grid-cols-12 grid-flow-row gap-8 py-8">
+                                        <div className="col-span-12 md:col-span-4 flex items-center justify-center">
+                                            <img src="/talents/revina_full.png" className="object-contain h-120" />
                                         </div>
-                                        <div className="col-span-12 md:col-span-8">
+                                        <div className="col-span-12 md:col-span-8 sticky">
                                             <div className="relative flex justify-center md:justify-between items-center mb-8">
                                                 <h3 className="text-3xl md:text-left text-center">
                                                     Revina Scarlet
@@ -92,20 +92,61 @@ export default function TalentSection() {
                                                 </button>
                                             </div>
                                             <div className="grid grid-cols-12 grid-rows-3 md:grid-rows-4 grid-flow-row gap-8">
-                                                <div className="col-span-12 md:col-span-4 row-span-1 md:row-span-4">
-                                                    <p className="text-lg mb-4">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-4">
+                                                    <p className="text-lg mb-4 font-semibold">
                                                         Biodata Talent
                                                     </p>
-                                                    <p><i>-COMING SOON-</i></p>
+                                                    <table>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Nama</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Revina Scarlet</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Birthdate</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">3 Juli</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Hobi</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Menyanyi, Voice Acting</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Kesukaan</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Tidur, Nge-Meme, Nge-Game</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Tidak Suka</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Game Horror, Kecoa</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Bahasa</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">ID/EN/JP</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Hashtag</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">
+                                                                <p className="mb-0.5">#RevinaScarlet (Regular)</p>
+                                                                <p className="mb-0.5">#RevinART (Fan Art)</p>
+                                                                <p className="mb-0.5">#RevinaMeme (Meme)</p>
+                                                                <p className="mb-0.5">#RevinaScarLEWD (NSFW)</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-3">
-                                                    <p className="text-lg mb-4">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-3">
+                                                    <p className="text-lg mb-4 font-semibold">
                                                         Lore Talent
                                                     </p>
                                                     <p><i>-COMING SOON-</i></p>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-1">
-                                                    <p className="text-lg mb-4">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-1">
+                                                    <p className="text-lg mb-4 font-semibold">
                                                         Sosial Media Talent
                                                     </p>
                                                     <div className="flex flex-row items-center">
@@ -132,7 +173,7 @@ export default function TalentSection() {
                                 </Modal>
 
                                 <button className="w-32 h-32 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal2}>
-                                    <img src="/talents_thumbnail/talent_02.webp" />
+                                    <img src="/talents_thumbnail/yuuki_square.png" />
                                 </button>
 
                                 <Modal
@@ -142,34 +183,75 @@ export default function TalentSection() {
                                     onRequestClose={closeModal2}
                                     style={customModalStyle}
                                 >
-                                    <div className="grid grid-cols-12 grid-flow-row gap-8">
-                                        <div className="col-span-12 md:col-span-4">
-                                            <img src="/talents/talent_02.webp" />
+                                    <div className="grid grid-cols-12 grid-flow-row gap-8 py-8">
+                                        <div className="col-span-12 md:col-span-4 flex items-center justify-center">
+                                            <img src="/talents/yuuki_full.png" className="object-contain h-120" />
                                         </div>
-                                        <div className="col-span-12 md:col-span-8">
+                                        <div className="col-span-12 md:col-span-8 sticky">
                                             <div className="relative flex justify-center md:justify-between items-center mb-8">
                                                 <h3 className="text-3xl md:text-left text-center">
                                                     Yuuki Yozora
                                                 </h3>
-                                                <button className="absolute hidden md:flex top-8 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal2}>
+                                                <button className="absolute hidden md:flex top-8 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal}>
                                                     &times;
                                                 </button>
                                             </div>
                                             <div className="grid grid-cols-12 grid-rows-3 md:grid-rows-4 grid-flow-row gap-8">
-                                                <div className="col-span-12 md:col-span-4 row-span-1 md:row-span-4">
-                                                    <p className="text-lg mb-4">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-4">
+                                                    <p className="text-lg mb-4 font-semibold">
                                                         Biodata Talent
                                                     </p>
-                                                    <p><i>-COMING SOON-</i></p>
+                                                    <table>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Nama</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Yuuki Yozora</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Birthdate</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">11 November</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Hobi</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Bermain Game, Roleplaying</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Kesukaan</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Tidur, Kang Shitpost, Nge-Game</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Tidak Suka</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">Kecoa Terbang, Yang Godain Revina</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Bahasa</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">ID/EN/JP</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className="pb-1 align-top">Hashtag</td>
+                                                            <td className="align-top px-2">:</td>
+                                                            <td className="align-top">
+                                                                <p className="mb-0.5">#YuukiYozora (Regular)</p>
+                                                                <p className="mb-0.5">#YozorART (Fan Art)</p>
+                                                                <p className="mb-0.5">#YozoraMeme (Meme)</p>
+                                                                <p className="mb-0.5">#Yuukikkeh (NSFW)</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-3">
-                                                    <p className="text-lg mb-4">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-3">
+                                                    <p className="text-lg mb-4 font-semibold">
                                                         Lore Talent
                                                     </p>
                                                     <p><i>-COMING SOON-</i></p>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-8 row-span-1 md:row-span-1">
-                                                    <p className="text-lg mb-4">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-1">
+                                                    <p className="text-lg mb-4 font-semibold">
                                                         Sosial Media Talent
                                                     </p>
                                                     <div className="flex flex-row items-center">
