@@ -75,7 +75,7 @@ export default function Staff() {
                             <StaffCard
                                 image="/staff/renzuku.webp"
                                 name="Renzuku"
-                                role="Web Dev, Layout Maker" />
+                                role="Web Dev & Layout Maker" />
                             <StaffCard
                                 image="/staff/dani.webp"
                                 name="Dani"
