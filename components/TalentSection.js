@@ -143,7 +143,10 @@ export default function TalentSection() {
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Lore Talent
                                                     </p>
-                                                    <p><i>-COMING SOON-</i></p>
+                                                    <p>
+                                                        Seorang gadis kuil yang dianugerahi kekuatan misterius untuk
+                                                        membasmi para monster.
+                                                    </p>
                                                 </div>
                                                 <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-1">
                                                     <p className="text-lg mb-4 font-semibold">
@@ -248,7 +251,10 @@ export default function TalentSection() {
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Lore Talent
                                                     </p>
-                                                    <p><i>-COMING SOON-</i></p>
+                                                    <p>
+                                                        Seorang bartender yang memiliki background misterius dan
+                                                        memiliki sifat yang tidak dapat diprediksi.
+                                                    </p>
                                                 </div>
                                                 <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-1">
                                                     <p className="text-lg mb-4 font-semibold">
