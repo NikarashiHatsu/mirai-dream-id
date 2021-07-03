@@ -14,7 +14,7 @@ export default function TalentSection() {
             backgroundColor: '#EFF6FF'
         }
     }
-    
+
     function openModal() {
         setIsOpen(true);
     }
@@ -22,7 +22,7 @@ export default function TalentSection() {
     function closeModal() {
         setIsOpen(false);
     }
-    
+
     function openModal2() {
         setIsOpen2(true);
     }
@@ -30,7 +30,7 @@ export default function TalentSection() {
     function closeModal2() {
         setIsOpen2(false);
     }
-    
+
     return (
         <div className="relative w-full min-h-screen text-white bg-yellow-300 pt-24 pb-20">
             {/* Top Separator */}
@@ -87,12 +87,12 @@ export default function TalentSection() {
                                                 <h3 className="text-3xl md:text-left text-center">
                                                     Revina Scarlet
                                                 </h3>
-                                                <button className="absolute hidden md:flex top-8 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal}>
+                                                <button className="absolute hidden md:flex top-0 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal}>
                                                     &times;
                                                 </button>
                                             </div>
-                                            <div className="grid grid-cols-12 md:grid-rows-4 grid-flow-row gap-8">
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-4">
+                                            <div className="grid grid-cols-12 md:grid-rows-2 grid-flow-row gap-8">
+                                                <div className="col-span-12 md:col-span-6 row-span-2">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Biodata Talent
                                                     </p>
@@ -139,7 +139,7 @@ export default function TalentSection() {
                                                         </tr>
                                                     </table>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-3">
+                                                <div className="col-span-12 md:col-span-6 row-span-1">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Lore Talent
                                                     </p>
@@ -148,7 +148,7 @@ export default function TalentSection() {
                                                         membasmi para monster.
                                                     </p>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-1">
+                                                <div className="col-span-12 md:col-span-6 row-span-1">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Sosial Media Talent
                                                     </p>
@@ -195,12 +195,12 @@ export default function TalentSection() {
                                                 <h3 className="text-3xl md:text-left text-center">
                                                     Yuuki Yozora
                                                 </h3>
-                                                <button className="absolute hidden md:flex top-8 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal}>
+                                                <button className="absolute hidden md:flex top-0 right-8 md:relative font-semibold text-xl border w-8 h-8 rounded bg-red-500 text-white hover:bg-red-600 transition duration-300 ease-in-out items-center justify-center" onClick={closeModal2}>
                                                     &times;
                                                 </button>
                                             </div>
-                                            <div className="grid grid-cols-12 md:grid-rows-4 grid-flow-row gap-8">
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-4">
+                                            <div className="grid grid-cols-12 md:grid-rows-2 grid-flow-row gap-8">
+                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-2">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Biodata Talent
                                                     </p>
@@ -247,7 +247,7 @@ export default function TalentSection() {
                                                         </tr>
                                                     </table>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-3">
+                                                <div className="col-span-12 md:col-span-6 row-span-1">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Lore Talent
                                                     </p>
@@ -256,7 +256,7 @@ export default function TalentSection() {
                                                         memiliki sifat yang tidak dapat diprediksi.
                                                     </p>
                                                 </div>
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-1">
+                                                <div className="col-span-12 md:col-span-6 row-span-1">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Sosial Media Talent
                                                     </p>
