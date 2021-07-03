@@ -99,6 +99,10 @@ export default function Staff() {
                                 role="Audio Mixer & Music Composer"
                                 facebook="https://www.facebook.com/utagaki.pochi"
                                 twitter="https://twitter.com/UtaPochi" />
+                            <StaffCard
+                                image="/staff/vathlauss.png"
+                                name="Vathaluss"
+                                role="Discord Moderator" />
                         </div>
                     </div>
                 </div>
