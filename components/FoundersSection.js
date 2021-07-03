@@ -16,9 +16,11 @@ export default function FounderSection() {
             </div>
 
             <div className="static z-20 flex flex-col w-full px-8 pt-24 pb-20 mx-auto max-w-7xl">
-                <h3 className="mb-8 text-3xl text-center text-gray-700">Founders</h3>
-                <div className="grid max-w-2xl grid-flow-row grid-cols-1 gap-12 mx-auto md:gap-8 md:grid-cols-2">
-                    <div className="flex flex-col items-center col-span-1">
+                <div className="grid max-w-2xl grid-flow-row grid-cols-1 gap-12 mx-auto md:gap-8 md:grid-cols-1">
+                    <div className="col-span-1">
+                        <h3 className="mb-4 text-3xl text-center text-gray-700">Founder</h3>
+                    </div>
+                    <div className="flex flex-col items-center col-span-1 mb-8">
                         <div className="relative w-32 h-32 mb-4 bg-white">
                             <img src="/staff/isamu_riandi.webp" className="absolute top-0 left-0 w-32 h-32 border-4 border-purple-800" />
                         </div>
@@ -40,6 +42,10 @@ export default function FounderSection() {
                                 </svg>
                             </a>
                         </div>
+                    </div>
+
+                    <div className="col-span-1">
+                        <h3 className="mb-4 text-3xl text-center text-gray-700">Co-Founder</h3>
                     </div>
                     <div className="flex flex-col items-center col-span-1">
                         <div className="relative w-32 h-32 mb-4 bg-white">
