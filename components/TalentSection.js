@@ -92,7 +92,7 @@ export default function TalentSection() {
                                                 </button>
                                             </div>
                                             <div className="grid grid-cols-12 md:grid-rows-2 grid-flow-row gap-8">
-                                                <div className="col-span-12 md:col-span-6 row-span-2">
+                                                <div className="col-span-12 lg:col-span-6 row-span-2">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Biodata Talent
                                                     </p>
@@ -200,7 +200,7 @@ export default function TalentSection() {
                                                 </button>
                                             </div>
                                             <div className="grid grid-cols-12 md:grid-rows-2 grid-flow-row gap-8">
-                                                <div className="col-span-12 md:col-span-6 row-span-1 md:row-span-2">
+                                                <div className="col-span-12 lg:col-span-6 row-span-1 md:row-span-2">
                                                     <p className="text-lg mb-4 font-semibold">
                                                         Biodata Talent
                                                     </p>
