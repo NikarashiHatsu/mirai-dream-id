@@ -52,11 +52,19 @@ export default function TalentSection() {
                         <TabList className="flex justify-center">
                             <Tab className="outline-none">
                                 <button className="px-4 py-2 mb-8 outline-none rounded border hover:text-yellow-300 font-semibold bg-transparent text-purple-700 hover:bg-purple-800 transition-colors duration-300 ease-in-out border-gray-700 mr-4">
+                                    Gen 0
+                                </button>
+                            </Tab>
+                            <Tab className="outline-none">
+                                <button className="px-4 py-2 mb-8 outline-none rounded border hover:text-yellow-300 font-semibold bg-transparent text-purple-700 hover:bg-purple-800 transition-colors duration-300 ease-in-out border-gray-700 mr-4">
                                     Gen 1
                                 </button>
                             </Tab>
                         </TabList>
 
+                        <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold px-8">
+                            Gen 0
+                        </TabPanel>
                         <TabPanel className="w-full h-full flex items-center justify-center text-gray-700 text-3xl font-semibold px-8">
                             <div className="grid grid-cols-2 grid-flow-row gap-4">
                                 <button className="w-32 h-32 sm:w-64 sm:h-64 bg-white border-4 border-purple-700 transition-colors duration-300 ease-in-out" onClick={openModal}>
