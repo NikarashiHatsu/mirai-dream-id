@@ -78,7 +78,7 @@ export default function Staff() {
                                 role="Web Dev & Layout Maker" />
                             <StaffCard
                                 image="/staff/dani.png"
-                                name="Dani"
+                                name="Gekkotama"
                                 role="Graphic Designer & Video Clipper"
                                 facebook="https://www.facebook.com/dani.putrap.1"
                                 twitter="https://twitter.com/roe2ro" />
