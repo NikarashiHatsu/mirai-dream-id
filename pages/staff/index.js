@@ -94,12 +94,6 @@ export default function Staff() {
                                 facebook="https://www.facebook.com/roufan.luthfi"
                                 instagram="https://www.instagram.com/roufan_luthfi/" />
                             <StaffCard
-                                image="/staff/pochi.png"
-                                name="Utagaki Pochi"
-                                role="Audio Mixer & Music Composer"
-                                facebook="https://www.facebook.com/utagaki.pochi"
-                                twitter="https://twitter.com/UtaPochi" />
-                            <StaffCard
                                 image="/staff/vathlauss.png"
                                 name="Vathlauss"
                                 role="Discord Moderator" />
