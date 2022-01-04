@@ -56,7 +56,7 @@ export default function FounderSection() {
                             Mendalami bidang analitik dan perkembangan dunia entertaintment, mempunyai antusiasme dalam dunia Virtual Youtuber.  Mempunyai misi membawa angin perubahan dalam dunia Entertaintment dan Peranimasian di Indonesia.
                         </p>
                         <div className="flex justify-center w-full">
-                            <a className="block w-8 mb-2 text-gray-700" target="_blank" href="https://www.facebook.com/pratama458">
+                            <a className="block w-8 mb-2 text-gray-700" target="_blank" href="https://www.facebook.com/profile.php?id=100076556599682">
                                 <svg className="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     {/* ! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) */}
                                     <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
