@@ -63,7 +63,7 @@ export default function Audition() {
                 </div>
 
                 <div className="flex justify-center">
-                    <a className="px-4 py-2 mt-12 text-2xl text-blue-700 transition-colors bg-white rounded hover:bg-blue-800 hover:text-white" target="_blank" href="https://docs.google.com/forms/d/1KiDgazYV4SEwMI8uSfYbKppcLoU6E8OroSqrMMkScxM">
+                    <a className="px-4 py-2 mt-12 text-2xl text-blue-700 transition-colors bg-white rounded hover:bg-blue-800 hover:text-white" target="_blank" href="https://forms.gle/o88xtWhJpWDDhAYm9">
                         Daftar disini!
                     </a>
                 </div>
